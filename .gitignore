@@ -1,0 +1,17 @@
+# 原始数据文件（体积较大，不提交到 GitHub）
+douyin_dataset.csv
+
+# VS Code 与 SQLTools 本机配置
+.vscode/
+
+# 日志文件
+*.log
+
+# Power BI 临时文件
+*.pbix.autosave
+*.pbix.tmp
+
+# 操作系统生成文件
+.DS_Store
+Thumbs.db
+Desktop.ini
