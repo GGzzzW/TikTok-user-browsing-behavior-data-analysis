@@ -1,6 +1,6 @@
 # 原始数据文件（体积较大，不提交到 GitHub）
 douyin_dataset.csv
-
+douyin_dataset.zip
 # VS Code 与 SQLTools 本机配置
 .vscode/
 

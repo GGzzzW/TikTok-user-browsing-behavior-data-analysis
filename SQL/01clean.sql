@@ -62,6 +62,16 @@ SELECT
     COUNT(*) FILTER (WHERE "H" is NULL) AS h_nulls,
     COUNT(*) FILTER (WHERE "date" IS NULL) AS date_nulls
 FROM douyin_dataset;
+-- 检查完毕没有null值
+-- 补充一点，有些字段名称可能设置时没留意，可能会和sql中的关键字重名，引用时要加双引号
+-- 并且后续该字段常用的话，建议更改字段名称
 
--- 4. 表占用空间
+-- 4. 个人检查，我自己会看时间范围
+SELECT
+    MIN("date"::DATE) AS start_date,
+    MAX("date"::DATE) AS end_date,
+    MAX("date"::DATE) - MIN("date"::DATE) AS day_diff,
+    COUNT(DISTINCT "date"::DATE) AS actual_date_count
+FROM douyin_dataset;
+
 
