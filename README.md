@@ -35,7 +35,7 @@
 - [`SQL/02user_features.sql`](SQL/02user_features.sql)：用户特征指标构建
 - [项目与字段说明](用户指标构建/introduction.md)
 - [用户特征指标体系](用户指标构建/index_structure.md)
-- [Power BI 用户行为分析看板制作指导文档](用户指标构建/Power%20BI用户行为分析看板制作指导文档.md)
+- [Power BI 用户行为分析看板制作指导文档](用户指标构建/Power_BI抖音用户行为分析看板制作文档.md)
 
 ## 用户特征
 
